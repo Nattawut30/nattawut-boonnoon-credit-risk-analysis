@@ -1,5 +1,5 @@
 # Credit Risk Analysis & Fraud Detection Dashboard
-This is my personal Python simple credit risk analysis and fraud detection pipeline. Uses only legitimate financial factors for risk scoring and unsupervised anomaly detection for potential fraud. Produces an interactive Plotly dashboard (HTML) and a static PNG cover image.
+Welcome to my personal Python beginner-friendly credit risk analysis and fraud detection pipeline. Uses only legitimate financial factors for risk scoring and unsupervised anomaly detection for potential fraud. Produces an interactive Plotly dashboard (HTML) and a static PNG cover image.
 
 *(Example: Summary Report)* <p><p/>
 ![Credit Analysis Console Demo](Screenshot_Console.png) <p><p/>
