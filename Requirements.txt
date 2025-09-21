@@ -1,4 +1,4 @@
-Requirement for Credit Risk & Dashboard project.
+Requirements for Credit Risk Analysis & Dashboard project.
 https://github.com/Nattawut30/nattawut-boonnoon-python-credit-risk-analysis.git
 
 ----------------------------------------------
