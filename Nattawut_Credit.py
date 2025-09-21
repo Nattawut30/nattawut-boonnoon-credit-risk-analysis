@@ -1,3 +1,6 @@
+# Credit Risk Analysis & Fruad Detections Dashboard By Nattawut Boonnoon
+# GitHub: @Nattawut30
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
