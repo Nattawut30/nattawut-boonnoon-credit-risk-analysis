@@ -1,7 +1,7 @@
-# Simple Credit Risk Analysis & Fraud Detection Dashboard By Nattawut Boonnoon
+# Simple Credit Risk Analysis & Fraud detections Dashboard By Nattawut Boonnoon
 # GitHub: @Nattawut30
 
-# Update Sep 15, 2025: Repo_404s_Error Fixed.
+#Update Sep 19, 2025: Repo_404_Error Fixed!
 
 #!/usr/bin/env python3
 """
@@ -683,3 +683,4 @@ def main(argv=None):
 
 if __name__ == "__main__":
     main()
+ # End
