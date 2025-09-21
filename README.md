@@ -54,39 +54,13 @@ Welcome to my personal Python beginner-friendly credit risk analysis and fraud d
 - Problems: look at credit_risk.log in your folder for clues, or try running again.
 
 # Important Notices
-1. Data hygiene:
-Validate input columns and types before running.
-Ensure LoanAmount is numeric and > 0.
-Clean inconsistent categorical labels (e.g., typos in CreditHistory) or the script will log warnings and treat them as missing. Mappings return NaN for unknown categories by design so you can detect data problems rather than silently accepting incorrect encodings.
-
-2. Fair lending and compliance:
-This pipeline uses only financial attributes for scoring and no protected-class variables. Still adhere to local fair-lending regulations. Keep transformation logic auditable.
-Maintain versioned snapshots of training data, model artifacts, and transformation code for audits.
-
-3. Model tuning and production:
-RandomizedSearchCV is used to limit runtime. For production, run exhaustive tuning on a curated compute node and store the final best_estimator_.
-Monitor model drift. Retrain on new labeled data periodically.
-
-4. Fraud detection limitations:
-IsolationForest is unsupervised and flags statistical anomalies. It will produce false positives and false negatives.
-Use rule-based heuristics and human review pipelines to validate flagged cases.
-
-5. Performance and scaling:
-For large datasets, increase compute resources and consider using incremental training or distributed frameworks.5. 
-Grid/random search is computationally intensive. Use --quick for exploration.
-
-6. Reproducibility & logs:
-Default random_state is set for reproducibility. Change as needed.
-Check credit_risk.log for warnings about unrecognized categories, missing columns, or imputation decisions.
-
-7. Visualization & export:
-If kaleido is installed, the script will try to export a PNG from Plotly. If not installed the script generates a static PNG using matplotlib and PIL.
-The interactive dashboard HTML can be opened with any modern browser.
-
-8. Security & privacy:
-Do not place sensitive personal data (PII) in public repositories.
-Mask or redact PII before sharing outputs.
-
+1. Data Hygiene: Validate input columns and types. Ensure LoanAmount > 0. Clean inconsistent categorical labels. Unknown categories are flagged by design.
+2. Fair Lending & Compliance: Only financial attributes are used. Adhere to local regulations and keep transformation logic auditable.
+3. Model & Fraud Limitations: Random Forest and Isolation Forest provide ~50–60% accuracy on sample/synthetic data. Fraud detection flags anomalies but may produce false positives/negatives. Human judgment is required.
+4. Performance & Reproducibility: For large datasets, scale resources as needed. Default random_state ensures reproducibility. Check credit_risk.log for warnings.
+5. Visualization & Export: Plotly dashboards are interactive; static PNGs require kaleido or fallback to matplotlib/PIL.
+6. Security & Privacy: Do not include sensitive personal data in public repos.
+7. Project Scope: Educational, research, and demonstration purposes only. Not for high-end financial or advanced credit decisions.
 
 # Credits
 Built By Nattawut Boonnoon <p><p/>
