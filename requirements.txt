@@ -2,7 +2,6 @@ Requirements for Credit Risk Analysis & Dashboard project.
 https://github.com/Nattawut30/nattawut-boonnoon-python-credit-risk-analysis.git
 
 ----------------------------------------------
-Install:
 
 # Core scientific libraries
 numpy>=1.24,<2.0
@@ -24,7 +23,7 @@ Pillow>=10.0,<11.0
 - imbalanced-learn,
 - seaborn
 
-*** This reduces install issues and keeps it lightweight. ***
+*** This reduces install issues and keeps it lightweight. :) ***
 
 ----------------------------------------------
 
