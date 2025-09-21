@@ -16,8 +16,42 @@ Welcome to my personal Python beginner-friendly credit risk analysis and fraud d
 6. Audit-ready logging and reproducible behavior (random_state)
 
 # How to Run the Code
--
--
+1. Make sure you have Python 3.11 or newer installed on your system.
+
+2. Open a terminal or command prompt.
+
+3. Go to the project folder where 'Nattawut_Credit.py' and 'requirements.txt' are located.
+
+4. (Optional but recommended) Create a virtual environment:
+
+- Run: python -m venv venv
+
+- Activate it:
+
+  - On Windows: venv\Scripts\activate
+  - On Mac/Linux: source venv/bin/activate
+
+5. Install all required packages by running: pip install -r requirements.txt
+
+6. Run the program with: python 'Nattawut_Credit.py'
+
+7. After it runs, check the console output for summary results.
+
+8. Open the folder credit_risk_outputs. You will find:
+
+- dashboard_xxxxx.html (interactive dashboard, open in a web browser)
+
+- summary_metrics.csv (summary data)
+
+- credit_risk_cover.png (cover visualization image)
+
+9. If you want static images from Plotly charts, make sure kaleido is correctly installed. <p><p/>
+10. Save results: click the camera icon on any picture to save it, or take a screenshot of the whole page (use Print Screen on Windows or Cmd+Shift+3 on Mac).
+
+***Pro Tips:***
+- Check your data: ensure your CSV has columns like LoanAmount, Risk, and others listed in the README. Fix missing ones before uploading.
+- Internet: needed the first time to install tools, but not to run afterward.
+- Problems: look at credit_risk.log in your folder for clues, or try running again.
 
 # Important Notes
 1. Data hygiene:
