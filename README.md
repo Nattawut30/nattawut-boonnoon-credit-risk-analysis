@@ -54,13 +54,13 @@ Welcome to my personal Python beginner-friendly credit risk analysis and fraud d
 - Problems: look at credit_risk.log in your folder for clues, or try running again.
 
 # Important Notices
-1. Data Hygiene: Validate input columns and types. Ensure LoanAmount > 0. Clean inconsistent categorical labels. Unknown categories are flagged by design.
-2. Fair Lending & Compliance: Only financial attributes are used. Adhere to local regulations and keep transformation logic auditable.
-3. Model & Fraud Limitations: Random Forest and Isolation Forest provide ~50–60% accuracy on sample/synthetic data. Fraud detection flags anomalies but may produce false positives/negatives. Human judgment is required.
-4. Performance & Reproducibility: For large datasets, scale resources as needed. Default random_state ensures reproducibility. Check credit_risk.log for warnings.
-5. Visualization & Export: Plotly dashboards are interactive; static PNGs require kaleido or fallback to matplotlib/PIL.
-6. Security & Privacy: Do not include sensitive personal data in public repos.
-7. Project Scope: Educational, research, and demonstration purposes only. Not for high-end financial or advanced credit decisions.
+1. *Data Hygiene:* Validate input columns and types. Ensure LoanAmount > 0. Clean inconsistent categorical labels. Unknown categories are flagged by design.
+2. *Fair Lending & Compliance:* Only financial attributes are used. Adhere to local regulations and keep transformation logic auditable.
+3. *Model & Fraud Limitations:* Random Forest and Isolation Forest provide ~50–60% accuracy on sample/synthetic data. Fraud detection flags anomalies but may produce false positives/negatives. Human judgment is required.
+4. *Performance & Reproducibility:* For large datasets, scale resources as needed. Default random_state ensures reproducibility. Check credit_risk.log for warnings.
+5. *Visualization & Export:* Plotly dashboards are interactive; static PNGs require kaleido or fallback to matplotlib/PIL.
+6. *Security & Privacy:* Do not include sensitive personal data in public repos.
+7. *Project Scale:* Mainly Educational, research, and demonstration purposes. Not for high-end financial or advanced credit decisions.
 
 # Credits
 Built By Nattawut Boonnoon <p><p/>
