@@ -1,0 +1,32 @@
+Requirement for Credit Risk & Dashboard project.
+https://github.com/Nattawut30/nattawut-boonnoon-python-credit-risk-analysis.git
+
+----------------------------------------------
+
+# Core scientific libraries
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+scikit-learn>=1.3,<2.0
+
+# Visualization
+matplotlib>=3.7, <4.0
+plotly>=5.17,<6.0
+
+# Dashboard export
+kaleido>=0.2.1   # Required by Plotly for static image export
+
+# Image processing
+Pillow>=10.0,<11.0
+
+# try avoids extra dependencies
+- streamlit, 
+- imbalanced-learn,
+- seaborn
+
+*** This reduces install issues and keeps it lightweight. ***
+
+----------------------------------------------
+
+Thank you,
+Nattawut Boonnoon
+https://github.com/Nattawut30
