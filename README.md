@@ -1,2 +1,5 @@
-# nattawut-boonnoon-python-credit-risk-analysis
-My personal Python workshops are about credit risk analysis &amp; fraud detection dashboards.
+# Credit Risk & Fraud Detection Dashboard
+# Installation
+# How to Run the Code
+# Important Notes
+# Credits
