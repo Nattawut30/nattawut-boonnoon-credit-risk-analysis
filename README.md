@@ -53,7 +53,7 @@ Welcome to my personal Python beginner-friendly credit risk analysis and fraud d
 - Internet: needed the first time to install tools, but not to run afterward.
 - Problems: look at credit_risk.log in your folder for clues, or try running again.
 
-# Important Notes
+# Important Notices
 1. Data hygiene:
 Validate input columns and types before running.
 Ensure LoanAmount is numeric and > 0.
@@ -91,5 +91,5 @@ Mask or redact PII before sharing outputs.
 # Credits
 Built By Nattawut Boonnoon <p><p/>
 Created On Jan 30, 2025 <p><p/>
-**Latest Updated: Sept. 21, 2025 > Repo_404_Error, Status: Fixed* <p><p/>
+**Latest Updated: Sept. 21, 2025 > Repo_404_Error = Status: Fixed* <p><p/>
 LinkedIn: www.linkedin.com/in/nattawut-bn
