@@ -15,27 +15,6 @@ Welcome to my personal Python beginner-friendly credit risk analysis and fraud d
 5. Exports: interactive HTML dashboard and static PNG summary
 6. Audit-ready logging and reproducible behavior (random_state)
 
-# Installation
-***Prerequisites:***
-- Python 3.9 or newer
-- Recommended virtual environment
-
-***Create virtual environment and install packages:***
-
-python -m venv venv
-- macOS / Linux ==> *source* venv/bin/activate
-- Windows (PowerShell) ==> venv\Scripts\Activate.ps1
-
-pip install --upgrade pip<p><p/>
-pip install pandas numpy scikit-learn plotly matplotlib pillow joblib
-- Optional (to enable Plotly -> PNG export) ==> pip install kaleido
-- Optional (for Streamlit UI if desired) ==> pip install streamlit
-<p><p/>
-  
-***Pro Tips:*** <p><p/>
-- kaleido is optional but required if you want the interactive Plotly figure saved as a PNG. If not installed the script falls back to a matplotlib-based PNG summary.
-- Use joblib to save and load models.
-
 # How to Run the Code
 -
 -
