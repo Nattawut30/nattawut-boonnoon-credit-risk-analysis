@@ -56,7 +56,7 @@ Welcome to my personal Python beginner-friendly credit risk analysis and fraud d
 # Important Notices
 1. *Data Hygiene:* Validate input columns and types. Ensure LoanAmount > 0. Clean inconsistent categorical labels. Unknown categories are flagged by design.
 2. *Fair Lending & Compliance:* Only financial attributes are used. Adhere to local regulations and keep transformation logic auditable.
-3. *Model & Fraud Limitations:* Random Forest and Isolation Forest provide ~50–60% accuracy on sample/synthetic data. Fraud detection flags anomalies but may produce false positives/negatives. Human judgment is required.
+3. *Model & Fraud Limitations:* Random Forest and Isolation Forest provide ~50–60% accuracy on real-world data. Fraud detection flags anomalies but may produce false positives/negatives. Human judgment is required.
 4. *Performance & Reproducibility:* For large datasets, scale resources as needed. Default random_state ensures reproducibility. Check credit_risk.log for warnings.
 5. *Visualization & Export:* Plotly dashboards are interactive; static PNGs require kaleido or fallback to matplotlib/PIL.
 6. *Security & Privacy:* Do not include sensitive personal data in public repos.
@@ -65,5 +65,5 @@ Welcome to my personal Python beginner-friendly credit risk analysis and fraud d
 # Credits
 Built By Nattawut Boonnoon <p><p/>
 Created On Jan 30, 2025 <p><p/>
-**Latest Updated: Sept. 21, 2025 > Repo_404_Error = Status: Fixed* <p><p/>
+**Latest Updated: Sept. 21, 2025 > Repo_404_Error Fixed* <p><p/>
 LinkedIn: www.linkedin.com/in/nattawut-bn
