@@ -63,5 +63,7 @@ Welcome to my personal Python beginner-friendly credit risk analysis and fraud d
 # Credits
 Built By Nattawut Boonnoon <p><p/>
 Created On October 14, 2022 <p><p/>
-**Latest Updated: September 2025 > re-uploaded & repo_404s_Error Fixed* <p><p/>
-LinkedIn: www.linkedin.com/in/nattawut-bn
+**Latest Updated: October 2025 > refactored + repo_404s_Error Fixed* <p><p/>
+LinkedIn: www.linkedin.com/in/nattawut-bn <p><p/>
+Email: nattawut.boonnoon@hotmail.com <p><p/>
+Mobile: (+66) 92 271 6680 <p><p/>
