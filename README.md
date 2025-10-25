@@ -62,7 +62,7 @@ Welcome to my personal project: a self-taught machine learning beginner-friendly
 
 # Credits
 Built by Nattawut Boonnoon <p><p/>
-Created from April 29, 2024, to October 16, 2025.<p><p/>
+Created from October 5, 2024, to October 16, 2025.<p><p/>
 LinkedIn: www.linkedin.com/in/nattawut-bn <p><p/>
 Email: nattawut.boonnoon@hotmail.com <p><p/>
 Mobile: (+66) 92 271 6680 <p><p/>
