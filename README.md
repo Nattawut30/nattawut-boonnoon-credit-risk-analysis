@@ -1,5 +1,5 @@
 # Credit Risk Analysis & Fraud Detection Dashboard
-Welcome to my personal project: self-taught Python machine learning credit risk analysis and fraud detection pipeline. The pipeline exclusively utilizes legitimate financial factors for risk scoring and employs unsupervised anomaly detection to identify potential fraud. Produces an interactive Plotly dashboard (HTML) and a static PNG cover image.
+Welcome to my personal project: a self-taught machine learning beginner-friendly credit risk analysis and fraud detection pipeline. The pipeline exclusively utilizes legitimate financial factors for risk scoring and employs unsupervised anomaly detection to identify potential fraud. Produces an interactive Plotly dashboard (HTML) and a static PNG cover image.
 
 *(HTML: Screenshot Dashboard from Plotly)* <p><p/>
 ![Fraud Detection Summary Demo](Screenshot_Dashboard.png) <p><p/>
