@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
 """
-Credit Risk & Fraud Detection - Refactored & Optimized Version
-By Nattawut Boonnoon | GitHub: @Nattawut30
+Credit Risk & Fraud Detection - Refactored + Optimized Version
+GitHub: @Nattawut30 | LinkedIn: Nattawut Boonnoon | Email: nattawut.boonnoon@hotmail.com
 
 Improvements:
 - Fixed NaN handling in composite scores
