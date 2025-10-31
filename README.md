@@ -1,4 +1,9 @@
-# Credit Risk Analysis, Fraud Detection, and Dashboards
+# <p align="center">🏦 Python: Credit Risk Analysis, and Fraud Detection 🔎<p/>
+<br>Created by Nattawut Boonnoon<br/>
+LinkedIn: www.linkedin.com/in/nattawut-bn
+<br>Email: nattawut.boonnoon@hotmail.com<br/>
+Phone: (+66) 92 271 6680
+
 A self-educated machine learning project for beginner-to-intermediate learners. It builds a credit risk analysis and fraud detection pipeline that uses only legitimate financial factors for risk scoring and applies unsupervised anomaly detection to flag potential fraud. The system generates an interactive Plotly dashboard (HTML) and a static PNG visualization for presentation.
 
 Potential fraud detection insights from the ML training models: <p><p/>
@@ -18,7 +23,7 @@ Credit Risk Analysis Dashboard: <p><p/>
 5. Exports: interactive HTML dashboard and static PNG summary
 6. Audit-ready logging and reproducible behavior (random_state)
 
-# Run the Code
+# <p align="center">👩🏻‍💻 Run the Code ⚙️<p/>
 1. Make sure you have Python 3.11 or newer installed on your system.
 
 2. Download the training file in Data folder
@@ -57,7 +62,7 @@ Credit Risk Analysis Dashboard: <p><p/>
 - Internet: needed the first time to install tools, but not to run afterward.
 - Problems: look at credit_risk.log in your folder for clues, or try running again.
 
-# Important Notices
+# <p align="center">⭐ Important Notices 📊<p/>
 1. *"Data Hygiene":* Validate input columns and types. Ensure LoanAmount > 0. Clean inconsistent categorical labels. Unknown categories are flagged by design.
 2. *"Fair Lending & Compliance":* Only financial attributes are used. Adhere to local regulations and keep transformation logic auditable.
 3. *"Model & Fraud Limitations":* Random Forest and Isolation Forest provide ~60–70% accuracy on real-world data. Fraud detection flags anomalies but may produce false positives/negatives. Human judgment is required.
@@ -65,10 +70,3 @@ Credit Risk Analysis Dashboard: <p><p/>
 5. *"Visualization & Export":* Plotly dashboards are interactive; static PNGs require kaleido or fallback to matplotlib/PIL.
 6. *"Security & Privacy":* Do not include sensitive personal data in public repos.
 7. *"Project Scale":* Mainly Educational, research, and demonstration purposes. Not for high-end financial or advanced credit decisions.
-
-# License
-Built by Nattawut Boonnoon <p><p/>
-Developed from August 2024 to October 2025.<p><p/>
-LinkedIn: www.linkedin.com/in/nattawut-bn <p><p/>
-Email: nattawut.boonnoon@hotmail.com <p><p/>
-Mobile: (+66) 92 271 6680 <p><p/>
