@@ -1,7 +1,7 @@
-# Credit Risk Analysis, Fraud Detection + Dashboard
-Welcome to my personal project and learning journey: a self-taught machine learning beginners level, credit risk analysis and fraud detection pipeline. The pipeline exclusively utilizes legitimate financial factors for risk scoring and employs unsupervised anomaly detection to identify potential fraud. Produces an interactive Plotly dashboard (HTML) and a static PNG cover image.
+# Credit Risk Analysis, Fraud Detection, and Dashboards
+A self-educated machine learning project for beginner-to-intermediate learners. It builds a credit risk analysis and fraud detection pipeline that uses only legitimate financial factors for risk scoring and applies unsupervised anomaly detection to flag potential fraud. The system generates an interactive Plotly dashboard (HTML) and a static PNG visualization for presentation.
 
-Potential fraud detection insights from the ML training model: <p><p/>
+Potential fraud detection insights from the ML training models: <p><p/>
 ![Fraud Detection Summary Demo](Screenshot_Dashboard.png)
 
 <p><p/>
@@ -60,7 +60,7 @@ Credit Risk Analysis Dashboard: <p><p/>
 # Important Notices
 1. *"Data Hygiene":* Validate input columns and types. Ensure LoanAmount > 0. Clean inconsistent categorical labels. Unknown categories are flagged by design.
 2. *"Fair Lending & Compliance":* Only financial attributes are used. Adhere to local regulations and keep transformation logic auditable.
-3. *"Model & Fraud Limitations":* Random Forest and Isolation Forest provide ~50–60% accuracy on real-world data. Fraud detection flags anomalies but may produce false positives/negatives. Human judgment is required.
+3. *"Model & Fraud Limitations":* Random Forest and Isolation Forest provide ~60–70% accuracy on real-world data. Fraud detection flags anomalies but may produce false positives/negatives. Human judgment is required.
 4. *"Performance & Reproducibility":* For large datasets, scale resources as needed. Default random_state ensures reproducibility. Check credit_risk.log for warnings.
 5. *"Visualization & Export":* Plotly dashboards are interactive; static PNGs require kaleido or fallback to matplotlib/PIL.
 6. *"Security & Privacy":* Do not include sensitive personal data in public repos.
