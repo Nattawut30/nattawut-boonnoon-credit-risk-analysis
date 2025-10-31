@@ -1,0 +1,65 @@
+
+======================================================================
+CREDIT RISK ASSESSMENT REPORT
+Generated: 2025-10-31 20:03:56
+======================================================================
+
+EXECUTIVE SUMMARY
+----------------------------------------------------------------------
+Total Applications          : 1,000
+Overall Bad Credit Rate     : 44.0%
+Potential Fraud Cases       : 1.8%
+Average Loan Amount         : €2,942
+
+KEY RISK FACTORS (by importance)
+----------------------------------------------------------------------
+1. LoanAmount                     : 0.2556
+2. employment_stability_score     : 0.1346
+3. LoanDuration                   : 0.0998
+4. credit_history_score           : 0.0817
+5. savings_score                  : 0.0816
+
+HIGH RISK SEGMENT ANALYSIS
+----------------------------------------------------------------------
+High-Risk Threshold (80th %tile) : 2.900
+High-Risk Applications          : 208 (20.8%)
+Bad Rate in High-Risk Segment   : 49.0%
+
+FRAUD DETECTION INSIGHTS
+----------------------------------------------------------------------
+Detection Method                : IsolationForest (Multi-feature)
+Total Cases Flagged             : 18
+Fraud Rate in Bad Credits       : 1.8%
+
+FINANCIAL STABILITY BREAKDOWN
+----------------------------------------------------------------------
+Mean Stability Score    : 2.94
+Median Stability Score  : 3.00
+Low Stability (<2.5)    : 155 applicants
+
+RECOMMENDATIONS
+----------------------------------------------------------------------
+1. IMMEDIATE ACTIONS
+   - Implement automated screening using financial stability score
+   - Flag all applications with stability score < 2.5 for review
+   - Conduct enhanced verification for fraud-flagged cases
+   
+2. RISK MITIGATION
+   - Require additional collateral for high-risk segment (score > 2.90)
+   - Implement tiered interest rates based on risk score
+   - Establish maximum loan amounts for low-stability applicants
+   
+3. OPERATIONAL IMPROVEMENTS
+   - Retrain models quarterly to capture changing patterns
+   - Monitor data drift in key features (Age, LoanAmount, Duration)
+   - Implement A/B testing for model improvements
+   - Maintain audit logs for all model decisions
+   
+4. FRAUD PREVENTION
+   - Cross-reference fraud-flagged cases with external databases
+   - Implement real-time anomaly detection at application submission
+   - Establish manual review workflow for high-fraud-probability cases
+
+======================================================================
+END OF REPORT
+======================================================================
