@@ -1,8 +1,13 @@
 # Credit Risk Analysis, Fraud Detection + Dashboard
 Welcome to my personal project and learning journey: a self-taught machine learning beginners level, credit risk analysis and fraud detection pipeline. The pipeline exclusively utilizes legitimate financial factors for risk scoring and employs unsupervised anomaly detection to identify potential fraud. Produces an interactive Plotly dashboard (HTML) and a static PNG cover image.
 
-*(HTML: Screenshot Dashboard from Plotly)* <p><p/>
-![Fraud Detection Summary Demo](Screenshot_Dashboard.png) <p><p/>
+Potential fraud detection insights from the ML training model: <p><p/>
+![Fraud Detection Summary Demo](Screenshot_Dashboard.png)
+
+<p><p/>
+
+Credit Risk Analysis Dashboard: <p><p/>
+![Fraud Detection Summary Demo2](Screenshot_Dashboard2.png)
 
 ***Key features***
 
@@ -16,7 +21,7 @@ Welcome to my personal project and learning journey: a self-taught machine learn
 # Run the Code
 1. Make sure you have Python 3.11 or newer installed on your system.
 
-2. Download the file .py file
+2. Download the training file in Data folder
 
 3. Go to the project folder where 'nattawut_credit_risk_refactored.py' and 'requirements.txt' are located.
 
