@@ -1,4 +1,4 @@
-# Credit Risk Analysis, Fraud Detection + Dashboard w/ Python
+# Credit Risk Analysis, Fraud Detection + Dashboard
 Welcome to my personal project and learning journey: a self-taught machine learning beginners level, credit risk analysis and fraud detection pipeline. The pipeline exclusively utilizes legitimate financial factors for risk scoring and employs unsupervised anomaly detection to identify potential fraud. Produces an interactive Plotly dashboard (HTML) and a static PNG cover image.
 
 *(HTML: Screenshot Dashboard from Plotly)* <p><p/>
@@ -61,7 +61,7 @@ Welcome to my personal project and learning journey: a self-taught machine learn
 6. *"Security & Privacy":* Do not include sensitive personal data in public repos.
 7. *"Project Scale":* Mainly Educational, research, and demonstration purposes. Not for high-end financial or advanced credit decisions.
 
-# Credits
+# License
 Built by Nattawut Boonnoon <p><p/>
 Developed from August 2024 to October 2025.<p><p/>
 LinkedIn: www.linkedin.com/in/nattawut-bn <p><p/>
