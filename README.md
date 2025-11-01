@@ -66,10 +66,10 @@ Credit Risk Analysis results: <p><p/>
 - Problems: look at credit_risk.log in your folder for clues, or try running again.
 
 # <p align="center">⭐ Important Notices 📊<p/>
-1. "Data Hygiene": Validate input columns and types. Ensure LoanAmount > 0. Clean inconsistent categorical labels. Unknown categories are flagged by design.
-2. "Fair Lending & Compliance": Only financial attributes are used. Adhere to local regulations and keep transformation logic auditable.
-3. "Model & Fraud Limitations": Random Forest and Isolation Forest provide ~60–70% accuracy on real-world data. Fraud detection flags anomalies but may produce false positives/negatives. Human judgment is required.
-4. "Performance & Reproducibility": For large datasets, scale resources as needed. Default random_state ensures reproducibility. Check credit_risk.log for warnings.
-5. "Visualization & Export": Plotly dashboards are interactive; static PNGs require kaleido or fallback to matplotlib/PIL.
-6. "Security & Privacy": Do not include sensitive personal data in public repos.
-7. "Project Scale": Mainly Educational, research, and demonstration purposes. Not for high-end financial or advanced credit decisions.
+1. Data Hygiene: Validate input columns and types. Ensure LoanAmount > 0. Clean inconsistent categorical labels. Unknown categories are flagged by design.
+2. Fair Lending & Compliance: Only financial attributes are used. Adhere to local regulations and keep transformation logic auditable.
+3. Model & Fraud Limitations: Random Forest and Isolation Forest provide ~70–80% accuracy on real-world data. Still not fully 100%. Fraud detection flags anomalies but may produce false positives/negatives. Human judgment is required.
+4. Performance & Reproducibility: For large datasets, scale resources as needed. Default random_state ensures reproducibility. Check credit_risk.log for warnings.
+5. Visualization & Export: Plotly dashboards are interactive; static PNGs require kaleido or fallback to matplotlib/PIL.
+6. Security & Privacy: Do not include sensitive personal data in public repos.
+7. Project Scale: Mainly Educational, research, and demonstration purposes. Not for high-end financial or advanced credit decisions.
