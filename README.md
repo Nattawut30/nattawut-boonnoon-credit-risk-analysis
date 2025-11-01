@@ -6,6 +6,13 @@ Phone: (+66) 92 271 6680
 
 This is my self-directed machine learning project for beginner-to-intermediate learners. It builds a credit risk analysis and fraud detection pipeline that uses only legitimate financial factors for risk scoring and applies unsupervised anomaly detection to flag potential fraud. The system generates an interactive Plotly dashboard (HTML) and a static PNG visualization for presentation.
 
+***Objective***
+-
+1. xxx
+2. xxx
+3. xxx
+
+
 ***Interactive Dashboards***
 -
 Potential fraud detection insights from the ML training models: <p><p/>
@@ -27,12 +34,7 @@ Credit Risk Analysis results: <p><p/>
 
 # <p align="center">👩🏻‍💻 Run the Code ⚙️<p/>
 1. Make sure you have Python 3.11 or newer installed on your system.
-
-2. Download the training file in Data folder
-
-3. Go to the project folder where 'nattawut_credit_risk_refactored.py' and 'requirements.txt' are located.
-
-4. (Optional but recommended) Create a virtual environment:
+2. (Optional but recommended) Create a virtual environment:
 
 - Run: python -m venv venv
 
@@ -41,23 +43,19 @@ Credit Risk Analysis results: <p><p/>
   - On Windows: venv\Scripts\activate
   - On Mac/Linux: source venv/bin/activate
 
-5. Install all required packages by running: pip install -r requirements.txt
-
-6. Run the file 'nattawut_credit_risk_refactored.py' with Python.
-
-7. After it runs, check the console output for summary results.
-
-8. Open the folder credit_risk_outputs. You will find:
+3. Install all required packages by running: pip install -r requirements.txt
+4. Run the file 'nattawut_credit_risk_refactored.py'.
+5. After it runs, check the console output for summary results.
+6. Open the folder credit_risk_outputs. You will find:
 
 - dashboard_xxxxx.html (interactive dashboard, open in a web browser)
 
-- summary_metrics.csv (summary data)
+- summary_metrics.txt (summary_report)
 
 - credit_risk_cover.png (cover visualization image)
 
-9. If you want static images from Plotly charts, make sure kaleido is correctly installed. <p><p/>
-
-10. Save results: click the camera icon on any picture to save it, or take a screenshot of the whole page (use Print Screen on Windows or Cmd+Shift+3 on macOS).
+7. If you want static images from Plotly charts, make sure kaleido is correctly installed.
+8. Save results: click the camera icon or take a screenshot of the whole page (use Print Screen on Windows or Cmd+Shift+3 on macOS).
 
 ***Tips:***
 -
