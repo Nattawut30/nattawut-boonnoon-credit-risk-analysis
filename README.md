@@ -8,9 +8,9 @@ This is my self-directed machine learning project for beginner-to-intermediate l
 
 ***Objective***
 -
-1. xxx
-2. xxx
-3. xxx
+1. Demonstrate Python Proficientcy: Implement data processing, analysis, and model prototyping using key Python libraries.
+2. Explore Machine Learning Models: Develop and evaluate predictive models to assess credit risk and detect fraudulent activities.
+3. Address Real-World Banking Challenges: Practices to improve credit assessment and strengthen fraud prevention in financial systems.
 
 
 ***Interactive Dashboards***
