@@ -7,8 +7,8 @@
 ***📚 Overview***
 -
 My Personal project is exploring machine learning solution for assessing credit risk, tackling two major challenges faced by banks:
-1. Credit Risk Scoring – Predicts whether a loan applicant is likely to default, achieving 78% accuracy.
-2. Fraud Detection – Identifies suspicious applications using anomaly detection techniques.
+1. Credit Risk Scoring = Predicts whether a loan applicant is likely to default, achieving ~78% accuracy.
+2. Fraud Detection = Identifies suspicious applications using anomaly detection techniques.
 
 **Why It Matters:**
 Banks lose billions every year due to loan defaults and fraudulent applications. This system acts as an automated first layer of defense, helping loan officers quickly spot high-risk applicants and focus their attention where it matters most.
@@ -103,5 +103,3 @@ This is an educational project. Before using in production:
 2. Fairness: I removed demographic data, but biases can still creep in through correlated features
 3. Fraud Detection: ~5% false positive rate means 50 angry customers per 1,000 applications
 4. Regulatory Compliance: This does NOT meet FCRA, ECOA, or Basel III requirements
-
-<p align="center">------- Use this as a portfolio project, not for actual lending decisions. -------<p/>
