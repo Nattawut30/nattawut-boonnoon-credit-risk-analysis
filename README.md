@@ -13,16 +13,16 @@ My Personal project is exploring machine learning solution for assessing credit 
 **Why It Matters:**
 Banks lose billions every year due to loan defaults and fraudulent applications. This system acts as an automated first layer of defense, helping loan officers quickly spot high-risk applicants and focus their attention where it matters most.
 
-***🎯 Key features***
+***✅ Key features***
 -
-**✅ What This System Does:**
+**What This System Does:**
 
 1. Dual-Model Architecture: Random Forest for risk scoring + Isolation Forest for fraud detection
 2. Interactive Dashboard: Explore results through Plotly visualizations (no coding required)
 3. Audit Trail: Full logging for compliance and debugging
 4. Fair Lending Compliant: Uses only financial factors (no demographic data)
 
-**📈 Business Impact:**
+**Business Impact:**
 
 1. Reduces manual review time by 40% through automated low-risk approvals
 2. Catches anomalies that traditional rule-based systems miss
@@ -40,6 +40,15 @@ Credit Risk Analysis results: <p><p/>
 
 
 # <p align="center">👩🏻‍💻 Run the Code ⚙️<p/>
+
+**Tech Stack:**
+| Component | Framework | Objective |
+| :---------- | :-----------: | -----------: |
+| Data Processing | Pandas, NumPy | Clean and transform financial data |
+| Machine Learning | scikit-learn | Train Random Forest & Isolation Forest |
+| Visualization | Plotly, Matplotlib | Generate interactive dashboards |
+| Logging | Python logging | Audit trail for compliance |
+
 **Prerequisites:**
 
 1. Python 3.11 or higher
@@ -74,8 +83,7 @@ python nattawut_credit_risk_refactored.py
    - Fraud Detection Rate: 12.4%
    - False Positive Rate: 5.1%
 `````
-
-**📊 Sample Results:**
+**📊 Sample Result**
 
 | Metric | Credit Risk Model | Fruad Detection |
 | :---------- | :-----------: | -----------: |
@@ -96,7 +104,7 @@ What I Have Learned?
 3. Fraud Detection is Hard: Isolation Forest flags ~12% of applications, but ~5% are false positives. Human review is still necessary.
 4. Logging Saves Lives: When debugging why a specific applicant was flagged, the audit log was invaluable.
 
-# <p align="center">⭐ Important Notices 📊<p/>
+# <p align="center">⭐ Important Notices ⚠️<p/>
 This is an educational project. Before using in production:
 
 1. Accuracy: 78% is decent for learning, but real banks need 90%+ for automated decisions
