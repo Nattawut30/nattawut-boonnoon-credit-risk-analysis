@@ -4,7 +4,7 @@
 <br>📧 Email: nattawut.boonnoon@hotmail.com<br/>
 📱 Phone: (+66) 92 271 6680
 
-***📚 Overview***
+***📋 Overview***
 -
 My Personal project is exploring machine learning solution for assessing credit risk, tackling two major challenges faced by banks:
 1. Credit Risk Scoring = Predicts whether a loan applicant is likely to default, achieving ~78% accuracy.
@@ -13,22 +13,22 @@ My Personal project is exploring machine learning solution for assessing credit 
 **Why It Matters:**
 Banks lose billions every year due to loan defaults and fraudulent applications. This system acts as an automated first layer of defense, helping loan officers quickly spot high-risk applicants and focus their attention where it matters most.
 
-***🎯 Key Features***
+***⭐ Key Features***
 -
-**What This System Does:**
+**💳 What This System Does:**
 
 1. Dual-Model Architecture: Random Forest for risk scoring + Isolation Forest for fraud detection
 2. Interactive Dashboard: Explore results through Plotly visualizations (no coding required)
 3. Audit Trail: Full logging for compliance and debugging
 4. Fair Lending Compliant: Uses only financial factors (no demographic data)
 
-**Business Impact:**
+**💸 Business Impact:**
 
 1. Reduces manual review time by 40% through automated low-risk approvals
 2. Catches anomalies that traditional rule-based systems miss
 3. Explainable results for regulatory compliance
 
-***🖼️ Dashboard***
+***🪧 Dashboard***
 -
 What you'll see:
 - Risk score distribution across loan amounts
@@ -91,7 +91,7 @@ python nattawut_credit_risk_refactored.py
    - False Positive Rate: 5.1%
 `````
 
-# <p align="center">⭐ Key Findings & Insights 💡<p/>
+# <p align="center">📚 Key Findings & Insights 💡<p/>
 **📊 Sample Result**
 
 | Metric | Credit Risk Model | Fruad Detection |
@@ -101,7 +101,7 @@ python nattawut_credit_risk_refactored.py
 | Recall | 69.8% | 81.2% (catch rate) |
 | F1-Score | 0.71 | 0.74 |
 
-🎓 What I Learned Building This So Far:
+🎯 What I Learned Building This So Far:
 
 - Class Imbalance is Real: Only 5% of loans default, so the model needs special handling (SMOTE, class weights) to avoid predicting "approve" for everyone.
 - Feature Engineering > Fancy Algorithms: Adding debt_to_income_ratio improved accuracy more than switching from Random Forest to XGBoost.
