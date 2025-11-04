@@ -1,4 +1,4 @@
-# <p align="center">🏦 Python: Credit Risk Analysis and Anomaly Detection 🔎<p/>
+# <p align="center">🏦 Python: Credit Analysis and Anomaly Detection 🔎<p/>
 <br>**Nattawut Boonnoon**<br/>
 💼 LinkedIn: www.linkedin.com/in/nattawut-bn
 <br>📧 Email: nattawut.boonnoon@hotmail.com<br/>
@@ -13,7 +13,7 @@ My Personal project is exploring machine learning solution for assessing credit 
 **Why It Matters:**
 Banks lose billions every year due to loan defaults and fraudulent applications. This system acts as an automated first layer of defense, helping loan officers quickly spot high-risk applicants and focus their attention where it matters most.
 
-***🎯 Key features***
+***🎯 Key Features***
 -
 **What This System Does:**
 
@@ -28,7 +28,7 @@ Banks lose billions every year due to loan defaults and fraudulent applications.
 2. Catches anomalies that traditional rule-based systems miss
 3. Explainable results for regulatory compliance
 
-***🖼️ Interactive Dashboard***
+***🖼️ Dashboard***
 -
 What you'll see:
 - Risk score distribution across loan amounts
@@ -55,6 +55,8 @@ What you'll see:
 | Logging | Python logging | Audit trail for compliance |
 
 **Prerequisites:**
+
+https://www.python.org/
 
 1. Python 3.11 or higher
 2. 10 MB disk space
