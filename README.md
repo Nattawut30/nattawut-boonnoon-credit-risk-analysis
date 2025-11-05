@@ -62,7 +62,7 @@ https://www.python.org/
 2. 10 MB disk space
 
 **Installation:**
-`````
+`````bash
 # 1. Clone this repository
 git clone https://github.com/Nattawut30/nattawut-boonnoon-Credit-Analysis-Python.git
 cd nattawut-boonnoon-Credit-Analysis-Python
@@ -79,7 +79,7 @@ python nattawut_credit_risk_refactored.py
 `````
 
 **Expected Output:**
-`````
+`````bash
 ✅ Data loaded: 5,000 loan applications
 ✅ Models trained successfully
 ✅ Dashboard saved: credit_risk_outputs/dashboard_20250102.html
