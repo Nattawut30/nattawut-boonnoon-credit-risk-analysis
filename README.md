@@ -13,9 +13,9 @@ My Personal project is exploring machine learning solution for assessing credit 
 **Why It Matters:**
 Banks lose billions every year due to loan defaults and fraudulent applications. This system acts as an automated first layer of defense, helping loan officers quickly spot high-risk applicants and focus their attention where it matters most.
 
-***⭐ Key Features***
+***⭐ System Architecture***
 -
-**💳 What This System Does:**
+**💳 Key Features:**
 
 1. Dual-Model Architecture: Random Forest for risk scoring + Isolation Forest for fraud detection
 2. Interactive Dashboard: Explore results through Plotly visualizations (no coding required)
@@ -28,6 +28,27 @@ Banks lose billions every year due to loan defaults and fraudulent applications.
 2. Catches anomalies that traditional rule-based systems miss
 3. Explainable results for regulatory compliance
 
+`````mermaid
+graph TD
+    A[Raw CSV Data<br/>5,000 Applications] --> B[Load & Clean<br/>Pandas]
+    B --> C[Feature Engineering<br/>debt_to_income, credit_age]
+    C --> D{class imbalance?}
+    D -->|Yes| E[SMOTE + Class Weights]
+    D -->|No| F[Train/Test Split]
+    E --> F
+    F --> G[Random Forest<br/>Risk Score]
+    F --> H[Isolation Forest<br/>Anomaly Score]
+    G & H --> I[Combine Scores<br/>High-Risk Flag]
+    I --> J[Plotly Dashboard<br/>HTML Output]
+    I --> K[Audit Log<br/>JSON/TXT]
+    J & K --> L[Loan Officer Review]
+    
+    style G fill:#4CAF50,stroke:#333,color:white
+    style H fill:#FF9800,stroke:#333,color:white
+    style L fill:#2196F3,stroke:#333,color:white
+`````
+
+
 ***🪧 Dashboard***
 -
 What you'll see:
@@ -36,10 +57,43 @@ What you'll see:
 - Feature importance rankings
 - Model performance metrics
 
-
 ![Fraud Detection Summary Demo](Screenshot_Dashboard.png)
 
-<p><p/>
+
+***📝 Feature Example***
+-
+`````PYTHON
+# AUTO CHART: What causes loan defaults?
+# =============================================
+import matplotlib.pyplot as plt
+import pandas as pd
+import os
+
+# Create output folder if missing
+os.makedirs("credit_risk_outputs", exist_ok=True)
+
+# Get feature names and importance
+features = X.columns
+importances = model.feature_importances_
+
+# Make a simple table
+data = {"Feature": features, "Importance": importances}
+df = pd.DataFrame(data)
+df = df.sort_values("Importance", ascending=False)
+
+# Draw bar chart
+plt.figure(figsize=(10, 6))
+plt.barh(df["Feature"][:10], df["Importance"][:10])
+plt.xlabel("How Much It Matters")
+plt.title("Top 10 Reasons Loans Fail")
+plt.tight_layout()
+
+# Save the picture
+plt.savefig("credit_risk_outputs/TOP_PREDICTORS.png", dpi=300)
+plt.close()
+
+print("PICTURE SAVED! Check: credit_risk_outputs/TOP_PREDICTORS.png")
+`````
 
 
 # <p align="center">👩🏻‍💻 How To Run  ⚙️<p/>
