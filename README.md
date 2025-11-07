@@ -41,8 +41,6 @@ What you'll see:
 
 <p><p/>
 
-![Fraud Detection Summary Demo2](Screenshot_Dashboard2.png)
-
 
 # <p align="center">👩🏻‍💻 How To Run  ⚙️<p/>
 
