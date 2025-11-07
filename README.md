@@ -57,7 +57,7 @@ What you'll see:
 - Feature importance rankings
 - Model performance metrics
 
-![Live Dashboard](Screenshot_Dashboard.png)
+![Live Dashboard](Nattawut_CR_Dashboard.png)
 
 
 ***📝 Feature Example***
@@ -126,7 +126,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # 4. Run the analysis
-python nattawut_credit_risk_refactored.py
+python Nattawut_CR_Script.py
 `````
 
 # <p align="center">📚 Key Findings & Insights 💡<p/>
