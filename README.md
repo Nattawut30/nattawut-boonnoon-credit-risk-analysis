@@ -7,7 +7,7 @@
 ***📋 Overview***
 -
 My Personal project is exploring machine learning solution for assessing credit risk, tackling two major challenges faced by banks:
-1. Credit Risk Scoring = Predicts whether a loan applicant is likely to default, achieving ~78% accuracy.
+1. Credit Risk Scoring = Predicts whether a loan applicant is likely to default, achieving ~60-70% accuracy.
 2. Fraud Detection = Identifies suspicious applications using anomaly detection techniques.
 
 **Why It Matters:**
@@ -15,7 +15,7 @@ Banks lose billions every year due to loan defaults and fraudulent applications.
 
 ***⭐ System Architecture***
 -
-**💳 Features:**
+**💳 Modules:**
 
 1. Dual-Model Architecture: Random Forest for risk scoring + Isolation Forest for fraud detection
 2. Interactive Dashboard: Explore results through Plotly visualizations (no coding required)
@@ -116,7 +116,7 @@ https://www.python.org/
 `````bash
 # 1. Clone this repository
 git clone https://github.com/Nattawut30/Credit-Analysis-Anomaly-Detection-Python.git
-cd nattawut-boonnoon-Credit-Analysis-Python
+cd Credit-Analysis-Anomaly-Detection-Python
 
 # 2. Create virtual environment (recommended)
 python -m venv venv
@@ -142,8 +142,8 @@ python Nattawut_CR_Script.py
 `````bash
 ✅ Data loaded: 5,000 loan applications
 ✅ Models trained successfully
-✅ Dashboard saved: credit_risk_outputs/dashboard_20250102.html
-✅ Summary saved: credit_risk_outputs/summary_metrics.txt
+✅ Dashboard saved: outputs/dashboard_20250102.html
+✅ Summary saved: outputs/summary_reports.txt
 
 📊 Model Performance:
    - Credit Risk Accuracy: 78.3%
@@ -164,11 +164,11 @@ python Nattawut_CR_Script.py
 - Credit history length matters: accounts <2 years show 40% higher risk
 - Fraud detection successfully catches 8 out of 10 suspicious patterns
 - Feature engineering improved accuracy more than algorithm complexity
+- Self-employed applicants are available separately from the general metrics.
 
 🔮 Future Improvement : 
 
 - False positives create friction: 5% = 50 flagged customers per 1,000 applications
-- Self-employed applicants could be identified separately from the general 
 - Accuracy changes to ~65% for loans >$100K due to smaller sample size
 - Real-time scoring not yet implemented (batch processing only)
 
@@ -176,4 +176,4 @@ python Nattawut_CR_Script.py
 
 - My 78.3% accuracy for real-world data is solid, but production systems need ~85%-90% for automation.
 - This model serves as a triage system (flagging cases for human review), not a fully replacement for underwriters
-- Human judgment remains critical for edge cases and final lending decisions
+- Human judgment remains critical for edge cases and final advanced lending decisions
