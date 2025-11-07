@@ -57,7 +57,7 @@ What you'll see:
 - Feature importance rankings
 - Model performance metrics
 
-![Fraud Detection Summary Demo](Screenshot_Dashboard.png)
+![Live Dashboard](Screenshot_Dashboard.png)
 
 
 ***📝 Feature Example***
@@ -95,7 +95,6 @@ plt.close()
 print("PICTURE SAVED! Check: credit_risk_outputs/TOP_PREDICTORS.png")
 `````
 
-
 # <p align="center">👩🏻‍💻 How To Run  ⚙️<p/>
 
 **Technology Stack:**
@@ -116,7 +115,7 @@ https://www.python.org/
 **Installation:**
 `````bash
 # 1. Clone this repository
-git clone https://github.com/Nattawut30/nattawut-boonnoon-Credit-Analysis-Python.git
+git clone https://github.com/Nattawut30/Credit-Analysis-Anomaly-Detection-Python.git
 cd nattawut-boonnoon-Credit-Analysis-Python
 
 # 2. Create virtual environment (recommended)
