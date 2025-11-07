@@ -15,7 +15,7 @@ Banks lose billions every year due to loan defaults and fraudulent applications.
 
 ***⭐ System Architecture***
 -
-**💳 Key Features:**
+**💳 Features:**
 
 1. Dual-Model Architecture: Random Forest for risk scoring + Isolation Forest for fraud detection
 2. Interactive Dashboard: Explore results through Plotly visualizations (no coding required)
@@ -69,10 +69,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 
-# Create output folder if missing
+# Create output folder if missing!
 os.makedirs("credit_risk_outputs", exist_ok=True)
 
-# Get feature names and importance
+# Get feature names + importance
 features = X.columns
 importances = model.feature_importances_
 
@@ -81,14 +81,14 @@ data = {"Feature": features, "Importance": importances}
 df = pd.DataFrame(data)
 df = df.sort_values("Importance", ascending=False)
 
-# Draw bar chart
+# Draw some bar chart
 plt.figure(figsize=(10, 6))
 plt.barh(df["Feature"][:10], df["Importance"][:10])
 plt.xlabel("How Much It Matters")
 plt.title("Top 10 Reasons Loans Fail")
 plt.tight_layout()
 
-# Save the picture
+# Save the result
 plt.savefig("credit_risk_outputs/TOP_PREDICTORS.png", dpi=300)
 plt.close()
 
@@ -130,7 +130,16 @@ pip install -r requirements.txt
 python nattawut_credit_risk_refactored.py
 `````
 
-**Expected Output:**
+# <p align="center">📚 Key Findings & Insights 💡<p/>
+**📊 Sample Result**
+
+| Metric | Credit Risk Model | Fruad Detection |
+| :---------- | :-----------: | -----------: |
+| Accuracy | 78.3% | N/A (unsupervised) |
+| Precision | 72.1% | 68.4% (of flagged cases) |
+| Recall | 69.8% | 81.2% (catch rate) |
+| F1-Score | 0.71 | 0.74 |
+
 `````bash
 ✅ Data loaded: 5,000 loan applications
 ✅ Models trained successfully
@@ -142,16 +151,6 @@ python nattawut_credit_risk_refactored.py
    - Fraud Detection Rate: 12.4%
    - False Positive Rate: 5.1%
 `````
-
-# <p align="center">📚 Key Findings & Insights 💡<p/>
-**📊 Sample Result**
-
-| Metric | Credit Risk Model | Fruad Detection |
-| :---------- | :-----------: | -----------: |
-| Accuracy | 78.3% | N/A (unsupervised) |
-| Precision | 72.1% | 68.4% (of flagged cases) |
-| Recall | 69.8% | 81.2% (catch rate) |
-| F1-Score | 0.71 | 0.74 |
 
 🎯 What I Learned Building This So Far:
 
@@ -166,11 +165,11 @@ python nattawut_credit_risk_refactored.py
 - Credit history length matters: accounts <2 years show 40% higher risk
 - Fraud detection successfully catches 8 out of 10 suspicious patterns
 - Feature engineering improved accuracy more than algorithm complexity
-- The model identifies self-employed applicants quite better now.
 
-🔮 Future Improvement: 
+🔮 Future Improvement : 
 
 - False positives create friction: 5% = 50 flagged customers per 1,000 applications
+- Self-employed applicants could be identified separately from the general 
 - Accuracy changes to ~65% for loans >$100K due to smaller sample size
 - Real-time scoring not yet implemented (batch processing only)
 
