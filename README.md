@@ -1,4 +1,4 @@
-# <p align="center">🏦 Python: Credit Analysis and Anomaly Detection 🔎<p/>
+# <p align="center">🏦 Python: Credit Risk and Anomaly Detection 🔎<p/>
 <br>**Nattawut Boonnoon**<br/>
 💼 LinkedIn: www.linkedin.com/in/nattawut-bn
 <br>📧 Email: nattawut.boonnoon@hotmail.com<br/>
